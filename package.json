@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node ieee_backend/server.js",
     "dev": "nodemon ieee_backend/server.js",
-    "postinstall": "cd ieee-frontend && npm install && npm run build"
+    "postinstall": "cd ../ieee-frontend && npm install --omit=dev && npm run build"
+
   },
   "engines": {
     "node": "20.x",
